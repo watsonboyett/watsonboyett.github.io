@@ -1,9 +1,11 @@
 ---
 
-type: project
+projects: true
+posted: 2015-01-19
 short: jart
 title: JART
 github: https://github.com/billybrown/jart
+image: 1.jpg
 images:
 - 1.jpg
 - 2.jpg
@@ -12,13 +14,14 @@ images:
 - 5.jpg
 videos: 
 - http://player.vimeo.com/video/117345035
+tags:
+- Raspberry Pi
+- Python
+
 ---
 
-<section class="about-section">
-	<h1>{{title}}</h1>
-	<p>Raspberry Pi and python to start, stop, and rewind an audio recording by pressing a single button. The button also has an LED in it that blinks and goes solid depending on if the audio is playing. Installed in a sculpture by <a href='http://jessievogel.com'>Jessica Vogel</a>.</p>
-	<p class="github"><a href="{{github}}" target="_blank">on github</a></p>
-</section>
+{{#markdown}}
 
-{{> imageList}}
-{{> back-section}}
+Raspberry Pi and python to start, stop, and rewind an audio recording by pressing a single button. The button also has an LED in it that blinks and goes solid depending on if the audio is playing. Installed in a sculpture by [Jessica Vogel](http://jessicavogel.com).
+
+{{/markdown}}

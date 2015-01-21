@@ -121,20 +121,26 @@ module.exports = function(grunt) {
     },
 
     // Build HTML from templates and data
-    assemble: {
+    assemble: {  
       site: {
-        options: {
-          layout: ['src/templates/layouts/default.hbs'],
-          partials: ['src/templates/partials/*.hbs'],
+        options:{  
+          layoutdir: 'src/templates/layouts',  
+          flatten: true,  
+          layout: 'default.hbs',  
+          partials: 'src/templates/partials/*.hbs',
           data: ['src/templates/data/*.yaml'],
-          prettify: { indent: 2 },
-          flatten: true
-        },
-        files: {
-          'build/': ['src/templates/pages/*.hbs']
-        }
+          collections: [{
+              name: 'post',
+              sortby: 'posted',
+              sortorder: 'descending'
+            }],
+        },  
+        files: {  
+            'build/': ['src/templates/pages/*.hbs']  
+        }  
       }
-    },
+    }, 
+
 
     // Before generating new files remove files from previous build.
     clean: {
@@ -150,10 +156,10 @@ module.exports = function(grunt) {
       },
       templates: {
         files: [
-          'src/templates/pages/*.hbs', 
-          'src/templates/layouts/*.hbs', 
-          'src/templates/partials/*.hbs', 
-          'src/templates/data/*.yaml'
+          'src/templates/pages/**/*.hbs', 
+          'src/templates/layouts/**/*.hbs', 
+          'src/templates/partials/**/*.hbs', 
+          'src/templates/data/**/*.yaml'
         ],
         tasks: ['templates']
       },

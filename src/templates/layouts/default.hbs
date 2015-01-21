@@ -45,8 +45,30 @@
         </header>
 
         <main class="main constrained" role="main">
-        
-            {{> body }}
+
+            {{#if project}}
+            <section class="about-section">
+                <h1>{{title}}</h1>
+                <div class="description">
+            {{/if}}
+
+            {{> body}}
+
+            {{#if project}}
+                <p class="github"><a href="{{github}}" target="_blank">on github</a></p>
+                <ul class="tags">
+                    {{#each page.tags}}
+                        <li><span class="tag">{{.}}</span></li>
+                    {{/each}}
+                </ul>
+            </section>
+            {{/if}}
+
+            {{#if project}}
+                {{> imageList}}
+                {{> back-section}}
+            {{/if}}
+
 
         </main><!--/.main-->
 

@@ -1,11 +1,10 @@
 ---
 
-articleTitle: home
-shortcode: home
+short: home
+title: homepage
+project: false
 
 ---
-<code>
-</code>
 
 <section class="about-section">
 	<p class="highlighted">{{ site.description}}</p>
@@ -13,21 +12,22 @@ shortcode: home
 
 <div class="contentList">
 	<h1 class="header contentList-header">Projects</h1>
+
 	<ol>
-		{{#each site.projects}}
+		{{#each pages }}{{#if this.data.projects}}
 			<li class="card card-project">
-				<a href="project-{{short}}.html">
-					<img src="img/projects/{{short}}/{{image}}" alt="" />
+				<a href="project-{{this.data.short}}.html">
+					<img src="img/projects/{{this.data.short}}/{{this.data.image}}" alt="" />
 					<div class="text-group">
-						<h2 class="header-image">{{title}}</h2>
+						<h2 class="header-image">{{this.data.title}}</h2>
 						<ul class="tags">
-							{{#each tags}}
+							{{#each this.data.tags}}
 								<li><span class="tag">{{.}}</span></li>
 							{{/each}}
 						</ul>
 					</div>
 				</a>
 			</li>
-		{{/each}}
+		{{/if}}{{/each}}
 	</ol>
 </div><!--/.contentList-->

@@ -1,18 +1,22 @@
 ---
 
-type: project
+projects: true
+posted: 2015-01-20
 short: maketimeclub
 title: maketime.club
 github: https://github.com/billybrown/maketimeclub
+image: 1.png
 images:
 - 1.png
+tags:
+- HTML/CSS/JS
+- Node.JS
+- Github Pages
+
 ---
 
-<section class="about-section">
-	<h1>{{title}}</h1>
-	<p>A website to document the projects of Make Time Club. Uses Assemble to generate a static site thats uploaded on github pages.</p>
-	<p class="github"><a href="{{github}}" target="_blank">on github</a></p>
-</section>
+{{#markdown}}
 
-{{> imageList}}
-{{> back-section}}
+A website to document the projects of Make Time Club. Uses Assemble to generate a static site thats uploaded on github pages.
+
+{{/markdown}}
