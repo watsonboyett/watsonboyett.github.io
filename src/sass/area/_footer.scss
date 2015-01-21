@@ -1,0 +1,23 @@
+/////////////////////////////////////-+++-/////////////////////////////////////////
+// Footer
+/////////////////////////////////////-+++-/////////////////////////////////////////
+
+
+
+.mainFooter {
+	background: $text;
+	color: $background;
+	padding: 30px 0 100px 0;
+	font-size: 17px;
+
+	a {
+		color: $background;
+		border-color: $background;
+
+		&:hover {
+			color: $text;
+			background: $background;
+			border-style: solid;
+		}
+	}
+}

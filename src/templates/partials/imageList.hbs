@@ -1,0 +1,16 @@
+
+<div class="imageList">
+	<h1 class="header contentList-header">Images</h1>
+	<ul>
+		{{#each images}}
+			<li>
+				<img src="img/projects/{{../page.short}}/{{.}}" alt=""/>
+			</li>
+		{{/each}}
+		{{#each videos}}
+			<li>
+				<iframe src="{{.}}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</li>
+		{{/each}}
+	</ul>
+</div><!--/.imageList-->

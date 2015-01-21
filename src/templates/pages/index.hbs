@@ -1,0 +1,33 @@
+---
+
+articleTitle: home
+shortcode: home
+
+---
+<code>
+</code>
+
+<section class="about-section">
+	<p class="highlighted">{{ site.description}}</p>
+</section>
+
+<div class="contentList">
+	<h1 class="header contentList-header">Projects</h1>
+	<ol>
+		{{#each site.projects}}
+			<li class="card card-project">
+				<a href="project-{{short}}.html">
+					<img src="img/projects/{{short}}/{{image}}" alt="" />
+					<div class="text-group">
+						<h2 class="header-image">{{title}}</h2>
+						<ul class="tags">
+							{{#each tags}}
+								<li><span class="tag">{{.}}</span></li>
+							{{/each}}
+						</ul>
+					</div>
+				</a>
+			</li>
+		{{/each}}
+	</ol>
+</div><!--/.contentList-->

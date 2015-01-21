@@ -1,0 +1,48 @@
+/////////////////////////////////////-+++-/////////////////////////////////////////
+// Global Variables
+/////////////////////////////////////-+++-/////////////////////////////////////////
+
+
+
+/////////////////////////////////////-+++
+// fonts
+
+
+$serif				: $georgia;
+$sans-serif			: $helvetica;
+
+
+
+/////////////////////////////////////-+++
+// colors
+
+
+$gray-dark			: darkgray;
+$gray				: gainsboro;
+$gray-light			: snow;
+
+$background			: snow;
+$text				: deepskyblue;
+
+$link-color			: $text;
+$link-hover-color	: darken($link-color, 10%);
+
+
+
+/////////////////////////////////////-+++
+// breakpoints
+
+
+$small-bp: $iphone-6plus;
+$teen-bp: $ipad-1;
+$medium-bp: $chromebook;
+$large-bp: $imac-21;
+
+
+
+/////////////////////////////////////-+++
+// Misc. values
+
+
+$page-max-width: 800px;
+$page-element-spacing: 20px;
