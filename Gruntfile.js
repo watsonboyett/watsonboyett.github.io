@@ -117,6 +117,11 @@ module.exports = function(grunt) {
         files: [
           {expand: true, cwd: 'src', src: ['CNAME'], dest: 'build'}
         ],
+      },
+      favicon: {
+        files: [
+          {expand: true, cwd: 'src', src: ['favicon.png'], dest: 'build'}
+        ],
       }
     },
 
