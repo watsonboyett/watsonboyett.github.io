@@ -5,7 +5,7 @@ Make Time Club - people in new orleans who make time to make things
 * Find a space
     * $1000 - $1500
     * atleast 1000ft2
-    * needs clean and dirty space
+    * needs clean and dirty space (including ventilation - potentially garage door)
     * Needs to be in or around mid city, lower gentilly, treme, marigny areas
     * Can be house or commercial, any type of building
     * Needs to be somewhat safe
