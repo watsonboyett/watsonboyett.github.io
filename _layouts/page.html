@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<article class="post">
+
+    <header class="about-section">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <div class="description">{{ content }}</div>
+        {% if page.github %}
+            <p class="github"><a href="{{page.github}}" target="_blank">on github</a></p>
+        {% endif %}
+        <ul class="tags">
+            {% for tag in page.tags %}
+                <li><span class="tag">{{ tag }}</span></li>
+            {% endfor %}
+        </ul>
+    </header>
+
+    <div class="imageList">
+        <h1 class="header contentList-header">Images</h1>
+        <ul>
+            {% for image in page.images %}
+                <li>
+                    <img src="img/projects/{{../page.short}}/{{ image }}" alt=""/>
+                </li>
+            {% endfor %}
+            {% for video in page.videos %}
+                <li>
+                    <iframe src="{{ video }}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </li>
+            {% endfor %}
+        </ul>
+    </div><!--/.imageList-->
+
+    <section class="back-section">
+        <a href="index.html">Back to all projects</a>
+    </section><!--/.back-section-->
+
+</article>

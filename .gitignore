@@ -5,3 +5,7 @@ node_modules
 bower_components
 *.css.map 
 .sass-cache
+
+_site
+.sass-cache
+.jekyll-metadata

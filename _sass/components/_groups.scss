@@ -1,0 +1,48 @@
+/////////////////////////////////////-+++-/////////////////////////////////////////
+// Highlighted group
+/////////////////////////////////////-+++-/////////////////////////////////////////
+
+
+.about-section {
+	@extend %box-blueborder;
+	margin: 0 0 50px;
+	background: #FFF;
+
+	p {
+		margin: 0;
+		text-align: left;
+		font-weight: 400;
+	}
+
+	.highlighted {
+		font-weight: 600;
+		text-align: center;
+	}
+
+	.github {
+		margin-top: 16px;
+	}
+
+	.tags {
+		text-align: left;
+		list-style: none;
+		margin: 10px 0 0 0;
+		padding: 0;
+
+		li {
+			display: inline-block;
+			margin: 0 10px 0 0;
+		}
+	}
+
+	.post-meta { 
+		font-weight: 800;
+		margin-bottom: 10px;
+	}
+}
+
+
+.back-section {
+	text-align: center;
+	margin-top: 60px;
+}

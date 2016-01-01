@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+  M A K E T I M E C L U B        o
+  N E W   O R L E A N S         /\
+                               /::\
+                 \ /          /::::\
+                ,a_a         /\::::/\
+               {/ ''\_      /\ \::/\ \
+               {\ ,_oo)    /\ \ \/\ \ \
+               {/  (_^____/  \ \ \ \ \ \
+     .=.      {/ \___)))*)    \ \ \ \ \/
+    (.=.`\   {/   /=;  ~/      \ \ \ \/
+        \ `\{/(   \/\  /        \ \ \/
+         \  `. `\  ) )           \ \/
+     jgs  \    // /_/_            \/
+           '==''==-))))
+-->
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <!--[if lte IE 9]>
+    <div class="browsehappy">
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    </div>
+    <![endif]-->
+
+    {% include header.html %}
+
+    <main class="main constrained" role="main">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
