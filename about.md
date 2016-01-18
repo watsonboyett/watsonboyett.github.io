@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Testing testing
+Hi there.
