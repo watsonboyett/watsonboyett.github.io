@@ -8,12 +8,12 @@ image: 1.jpg
 images:
 - 1.jpg
 - 2.jpg
-- 3.jpg
-- 4.jpg
+- 3.png
+- 4.png
 tags:
 - RC Car
 - Nerf Canon
 - PCB Design
 ---
 
- 
+A remote-controlled car that fires nurf darts from a movable turret. The hardware and firmware were designed to be mostly compatible with the Arduino Uno R3, but also add several features: 4 motor drivers, wireless comms, and 2 open-collector switches. 

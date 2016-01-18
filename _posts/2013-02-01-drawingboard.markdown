@@ -8,8 +8,7 @@ image: 1.jpg
 images:
 - 1.jpg
 - 2.jpg
-- 3.jpg
-- 4.jpg
+- 3.png
 externals:
 - https://giant.gfycat.com/FeistyEquatorialHamadryas.gif
 tags: 
