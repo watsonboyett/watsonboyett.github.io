@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Drawing Board"
-date: 2015-02-01 12:00:00 -0600
+date: 2013-02-01 12:00:00 -0600
 short: drawingboard
 github: https://github.com/watsonboyett/drawingboard
 image: 1.jpg
@@ -10,14 +10,12 @@ images:
 - 2.jpg
 - 3.jpg
 - 4.jpg
-- 5.jpg
-videos: 
-- http://player.vimeo.com/video/117345035
+externals:
+- https://giant.gfycat.com/FeistyEquatorialHamadryas.gif
 tags: 
 - Kinect
+- Projector
 - JavaScript
-- Projection
 ---
 
-
-Raspberry Pi and python to start, stop, and rewind an audio recording by pressing a single button. The button also has an LED in it that blinks and goes solid depending on if the audio is playing. Installed in a sculpture by [Jessica Vogel](http://jessicavogel.com).
+A Kinect and a project wired up to a computer to provide an interactive touch surface on any table or wall. And the drawing board web-app provides a perfect interface for playing a new age version of pictionary.

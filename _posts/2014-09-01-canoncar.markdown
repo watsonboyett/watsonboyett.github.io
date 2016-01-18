@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Canon Car"
+date: 2014-09-01 12:00:00 -0600
+short: canoncar
+github: https://github.com/watsonboyett/canoncar
+image: 1.jpg
+images:
+- 1.jpg
+- 2.jpg
+- 3.jpg
+- 4.jpg
+tags:
+- RC Car
+- Nerf Canon
+- PCB Design
+---
+
+ 

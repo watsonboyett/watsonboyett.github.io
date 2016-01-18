@@ -10,13 +10,10 @@ images:
 - 2.jpg
 - 3.jpg
 - 4.jpg
-- 5.jpg
-videos: 
-- http://player.vimeo.com/video/117345035
 tags:
-- Raspberry Pi
-- Python
+- dot matrix
+- PIC24 MCU
+- PCB design
 ---
 
-
-Raspberry Pi and python to start, stop, and rewind an audio recording by pressing a single button. The button also has an LED in it that blinks and goes solid depending on if the audio is playing. Installed in a sculpture by [Jessica Vogel](http://jessicavogel.com).
+A multi-color dot matrix display that usually just shows the time, but can also display other stuff too!

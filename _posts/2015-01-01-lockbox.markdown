@@ -16,5 +16,5 @@ tags:
 - Step & Repeat
 ---
 
-A multi-function information tool in the form factor of a credit card. There are 3 versions - each includes metric and standard rulers.
+A collection of 3D models that can used to make various enclosures. The goal for each box is to use a single piece, flat design that can be copied several times and fit together to make a self-supporting enclosure. Each piece can be laser cut of 3D printed. Likewise, each box can be scaled up or down, depending on desired size.
 

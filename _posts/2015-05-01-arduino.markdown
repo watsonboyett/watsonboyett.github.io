@@ -3,21 +3,31 @@ layout: post
 title: "Arduino Projects"
 date: 2015-05-01 12:00:00 -0600
 short: arduino
-github: https://github.com/watsonboyett/ArduinoPlayground
+//github: https://github.com/watsonboyett/ArduinoPlayground
 image: 1.jpg
 images:
 - 1.jpg
 - 2.jpg
 - 3.jpg
 - 4.jpg
-- 5.jpg
-videos: 
-- http://player.vimeo.com/video/117345035
+externals:
+- https://giant.gfycat.com/LastingCaringBluefintuna.gif
 tags:
 - Arduino
 - Costumes
 - Prototyping
 ---
 
+A collection of Arduino based projects used for a variety of purposes.
 
-Raspberry Pi and python to start, stop, and rewind an audio recording by pressing a single button. The button also has an LED in it that blinks and goes solid depending on if the audio is playing. Installed in a sculpture by [Jessica Vogel](http://jessicavogel.com).
+-----
+
+## Costumes
+- [Horse Hat](https://github.com/watsonboyett/ArduinoPlayground/tree/master/HorseHat) - A band of horses running around the brim of a derby hat 
+- [Panic Bot](https://github.com/watsonboyett/ArduinoPlayground/tree/master/PanicBot) - A weird (and kind of creepy) robot mask that changes colors when people get too close to it
+- [Banadana Snake](https://github.com/watsonboyett/ArduinoPlayground/tree/master/BandanaSnake) - A bandana scarf that lights up
+
+## Playing Around
+- [BreadShield Uno](https://github.com/watsonboyett/ArduinoPlayground/tree/master/BreadShieldUno) - A "better" breadboard for prototyping with the Uno R3
+- [AccelePlot](https://github.com/watsonboyett/ArduinoPlayground/tree/master/AccelePlot) - A simple sketch that reads data from an accelerometer and displays it on a real-time graph in Processing
+- [ArduinoPOV](https://github.com/watsonboyett/ArduinoPlayground/tree/master/ArduinoPov) - A "persistence of vision" sketch that displays a message when waved back and forth quickly
