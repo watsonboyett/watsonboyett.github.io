@@ -8,8 +8,6 @@ image: 1.jpg
 images:
 - 1.jpg
 - 2.jpg
-- 3.jpg
-- 4.jpg
 tags:
 - Home Automation
 - Raspberry Pi

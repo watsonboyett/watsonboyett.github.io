@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SMD Adapters"
-date: 2015-08-01 12:00:00 -0600
+date: 2015-07-01 12:00:00 -0600
 short: smdapters
 github: https://github.com/watsonboyett/smdapters
 image: 1.jpg

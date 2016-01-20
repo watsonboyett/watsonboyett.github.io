@@ -8,9 +8,9 @@ image: 1.jpg
 images:
 - 1.jpg
 - 2.jpg
-- 3.jpg
-- 4.jpg
-- 5.jpg
+- 3.png
+- 4.png
+- 5.png
 tags:
 - Laser Cutting
 - Illustrator
