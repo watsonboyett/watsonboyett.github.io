@@ -5,15 +5,19 @@ date: 2016-01-01 12:00:00 -0600
 short: marvin
 github: https://github.com/watsonboyett/marvin
 image: 1.jpg
-images:
-- 1.jpg
-- 2.jpg
-- 3.jpg
-- 4.jpg
 tags:
 - Home Automation
-- Raspberry Pi
-- Wireless Remote
+- Environment Sensors
+- Wireless Remotes
+- RPi Controller
+images:
+- path: 1.jpg
+  title: 
+  caption: proof of concept for the wireless remote (modifying off-the-shelf devices)
+- path: 2.jpg
+  title: 
+  caption: prototyping the interfacing circuitry
+
 ---
 
-Marvin is a simple, yet higly useful, home-automation robot. He's hacked into some cheap wireless remotes to allow me to turn on my lights and heat my home. 
+Marvin is a simple, yet highly useful, home-automation robot. He's hacked into some cheap wireless remotes to allow me to turn on my lights and heat my home.

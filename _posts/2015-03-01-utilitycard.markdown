@@ -6,11 +6,11 @@ short: utilitycard
 github: https://github.com/watsonboyett/UtilityCards
 image: 1.jpg
 images:
-- 1.jpg
-- 2.jpg
-- 3.jpg
-- 4.jpg
-- 5.jpg
+- path: 1.jpg
+- path: 2.jpg
+- path: 3.png
+- path: 4.png
+- path: 5.png
 tags:
 - Laser Cutting
 - Illustrator

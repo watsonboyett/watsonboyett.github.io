@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "SMD Adapters"
-date: 2015-08-01 12:00:00 -0600
+date: 2014-08-01 12:00:00 -0600
 short: smdapters
 github: https://github.com/watsonboyett/smdapters
 image: 1.jpg
 images:
-- 1.jpg
-- 2.jpg
-- 3.jpg
+- path: 1.jpg
+- path: 2.jpg
+- path: 3.jpg
 tags:
 - SMD + PCB
 - Prototyping 

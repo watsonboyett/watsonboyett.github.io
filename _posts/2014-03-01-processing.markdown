@@ -6,10 +6,15 @@ short: processing
 github: https://github.com/watsonboyett/processing
 image: 1.jpg
 images:
-- 1.jpg
-- 2.jpg
-- 3.jpg
-- 4.jpg
+- path: 1.jpg
+  title: we need more energon cubes!
+  caption: a visual plot of the first 10,000 prime numbers (zoomed in)
+- path: 2.jpg
+  caption: a visual plot of the first 10,000 prime numbers
+- path: 3.jpg
+  caption: noisy fractals
+- path: 4.jpg
+  caption: noisy penrose tiles
 tags:
 - Processing
 - Math + Art

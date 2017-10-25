@@ -6,10 +6,9 @@ short: clockbot
 github: https://github.com/watsonboyett/clockbot
 image: 1.jpg
 images:
-- 1.jpg
-- 2.jpg
-- 3.jpg
-- 4.jpg
+- path: 1.jpg
+- path: 2.jpg
+- path: 3.jpg
 tags:
 - dot matrix
 - PIC24 MCU
