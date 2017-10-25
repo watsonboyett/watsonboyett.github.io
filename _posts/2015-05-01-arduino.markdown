@@ -6,10 +6,9 @@ short: arduino
 //github: https://github.com/watsonboyett/ArduinoPlayground
 image: 1.jpg
 images:
-- 1.jpg
-- 2.jpg
-- 3.jpg
-- 4.jpg
+- path: 1.jpg
+- path: 3.jpg
+- path: 4.jpg
 externals:
 - https://giant.gfycat.com/LastingCaringBluefintuna.gif
 tags:
@@ -25,7 +24,7 @@ A collection of Arduino based projects used for a variety of purposes.
 ## Costumes
 - [Horse Hat](https://github.com/watsonboyett/ArduinoPlayground/tree/master/HorseHat) - A band of horses running around the brim of a derby hat 
 - [Panic Bot](https://github.com/watsonboyett/ArduinoPlayground/tree/master/PanicBot) - A weird (and kind of creepy) robot mask that changes colors when people get too close to it
-- [Banadana Snake](https://github.com/watsonboyett/ArduinoPlayground/tree/master/BandanaSnake) - A bandana scarf that lights up
+- [Banadana Snake](https://github.com/watsonboyett/ArduinoPlayground/tree/master/BandanaSnake) - A bandanna scarf that lights up
 
 ## Playing Around
 - [BreadShield Uno](https://github.com/watsonboyett/ArduinoPlayground/tree/master/BreadShieldUno) - A "better" breadboard for prototyping with the Uno R3

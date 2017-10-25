@@ -6,12 +6,12 @@ short: lockbox
 github: https://github.com/watsonboyett/lockbox
 image: 1.jpg
 images:
-- 1.jpg
-- 2.jpg
-- 3.jpg
-- 4.jpg
-- 5.jpg
-- 6.jpg
+- path: 1.jpg
+- path: 2.jpg
+- path: 3.jpg
+- path: 4.jpg
+- path: 5.jpg
+- path: 6.jpg
 tags:
 - CAD Modeling
 - 3D Printing

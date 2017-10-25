@@ -6,9 +6,9 @@ short: drawingboard
 github: https://github.com/watsonboyett/drawingboard
 image: 1.jpg
 images:
-- 1.jpg
-- 2.jpg
-- 3.png
+- path: 1.jpg
+- path: 2.jpg
+- path: 3.png
 externals:
 - https://giant.gfycat.com/FeistyEquatorialHamadryas.gif
 tags: 

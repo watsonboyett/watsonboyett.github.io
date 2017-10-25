@@ -27,21 +27,31 @@ layout: default
                     <img src="{{ external }}" alt=""/>
                 </li>
             {% endfor %}
+
             {% for image in page.images %}
                 <li>
-                    <img src="../../../img/projects/{{../page.short}}/{{ image }}" alt=""/>
+                    <div class="image-wrapper" >
+                        <img src="../../../img/projects/{{page.short}}/{{ image.path }}" title="{{ image.title }}" alt=""/>
+                        {% if image.caption %}
+                        <p class="image-caption">{{ image.caption }}</p>
+                        {% endif %}
+                    </div>
                 </li>
             {% endfor %}
+
             {% for video in page.videos %}
                 <li>
                     <iframe src="{{ video }}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </li>
             {% endfor %}
+
             {% for embed in page.embeds %}
                  <li>
                      {{ embed }}
                  </li>
             {% endfor %}
+
+            
         </ul>
     </div><!--/.imageList-->
 
