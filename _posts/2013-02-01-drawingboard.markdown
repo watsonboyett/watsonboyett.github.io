@@ -7,14 +7,17 @@ github: https://github.com/watsonboyett/drawingboard
 image: 1.jpg
 images:
 - path: 1.jpg
+  caption: Close-up shot of the projection surface
 - path: 2.jpg
+  caption: Kinect and projector stand -- installed in a local makerspace
 - path: 3.png
+  caption: Drawing Board interface
 externals:
 - https://giant.gfycat.com/FeistyEquatorialHamadryas.gif
 tags: 
-- Kinect
-- Projector
-- JavaScript
+- Interactive Projection
+- Multi-Touch Sensing
+- Kinect Camera Sensor
 ---
 
-A Kinect and a project wired up to a computer to provide an interactive touch surface on any table or wall. And the drawing board web-app provides a perfect interface for playing a new age version of pictionary.
+I built an interactive projection surface using Microsoft's Kinect camera sensor and a projector. The Kinect  provides point cloud location and depth information that can be used to emulate mouse/touch events on the projection surface. Virtually any reflective surface can be used as an interactive display. I also built a "drawing board" web-app in Javascript that provides an simple interface for playing a new version of pictionary.

@@ -12,7 +12,6 @@ images:
 tags:
 - SMD + PCB
 - Prototyping 
-- EagleCad
 ---
 
 A set of small PCB adapters used to convert common SMD footprints to DIP modules for easier prototyping. SMD footprints include: SOIC, TSSOP, TQFP, SOT-223, and TO-252.  

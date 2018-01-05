@@ -11,8 +11,9 @@ images:
 - path: 3.jpg
 tags:
 - dot matrix
-- PIC24 MCU
-- PCB design
+- LED clock
 ---
 
 A multi-color dot matrix display that usually just shows the time, but can also display other stuff too!
+
+This was one of the first circuits I ever designed (which is pretty apparent from the design files).

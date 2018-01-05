@@ -10,16 +10,15 @@ images:
 - path: 2.jpg
 - path: 3.png
 - path: 4.png
-- path: 5.png
 tags:
+- Everyday Ruler
 - Laser Cutting
-- Illustrator
-- Ponoko
+- Measure Everything
 ---
 
 A set of multi-function measurement and information tools in the form factor of a credit card. There are different versions, each including metric and standard rulers and unit conversion tables.
 
 -----
 
-These cards were a [Make Time Club](http://maketime.club) collaboration! [Bill](http://b.illbrown.com) did pretty much all of the hard work here. I just kind of watched. 
+These cards were a [Make Time Club](http://maketime.club) collaboration! [Bill](http://b.illbrown.com) did pretty much all of the hard work here -- he's an Illustrator whiz!. I just kind of watched and served as his hype man. 
 

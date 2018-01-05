@@ -4,16 +4,18 @@ title: "Canon Car"
 date: 2015-09-01 12:00:00 -0600
 short: canoncar
 github: https://github.com/watsonboyett/canoncar
-image: 1.jpg
+image: car-and-joystick.jpg
 images:
-- path: 1.jpg
-- path: 2.jpg
-- path: 3.png
-- path: 4.png
+- path: car-and-joystick.jpg
+  title: 
+  caption: Fully assembled RC car with joystick controller
+- path: car-proto.jpg
+  title: 
+  caption: Prototyping one of the early designs
 tags:
 - RC Car
 - Nerf Canon
-- PCB Design
+- Toy Hacking
 ---
 
-A remote-controlled car that fires nurf darts from a movable turret. The hardware and firmware were designed to be mostly compatible with the Arduino Uno R3, but also add several features: 4 motor drivers, wireless comms, and 2 open-collector switches. 
+A remote-controlled car that fires nurf darts from a movable turret. The PCB includes four motor drivers, wireless comms, and two open-collector switches. These features make it a prime candidate for a small robotics platform. The hardware and firmware were originally designed to be mostly compatible with the Arduino Uno R3, but it uhh... didn't work out as well as intended. In hindsight, I probably should have just used off-the-shelf Arduino components. But this was mostly meant to be a learning experience, so it doesn't really matter anyway.

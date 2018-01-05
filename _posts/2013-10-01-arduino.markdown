@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Arduino Projects"
-date: 2015-05-01 12:00:00 -0600
+date: 2013-10-01 12:00:00 -0600
 short: arduino
 //github: https://github.com/watsonboyett/ArduinoPlayground
 image: 1.jpg

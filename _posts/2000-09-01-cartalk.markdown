@@ -1,0 +1,28 @@
+---
+layout: post
+title: "CarTalk"
+date: 2000-09-01 12:00:00 -0600
+short: CarTalk
+github: https://github.com/watsonboyett/CarTalk
+image: assembled-board.jpg
+tags:
+- Car Hacking
+- Inertial Measurement Unit
+- CAN Bus Logging
+images:
+- path: assembled-board.jpg
+  title: 
+  caption:
+- path: installed.jpg
+  title: 
+  caption: 
+- path: pcb-top.png
+  title: 
+  caption: 
+- path: pcb-btm.png
+  title: 
+  caption: 
+
+---
+
+CarTalk is an IMU expansion board for the Macchina M2 platform. The M2 board interfaces with the OBD-II port, which is standard in most modern cars. The CarTalk firmware uses the M2 to read data from the car's CAN bus and log it to the on-board SD card. The CarTalk expansion board provides additional location, motion, and environmental data. The expansion board also provides WiFi access so that the data logs can be uploaded to a remote server without user intervention (i.e. when the car returns home each day). 
