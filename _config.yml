@@ -11,8 +11,11 @@ email: watsonboyett@gmail.com
 description: Some projects I've worked on.
 url: "http://watsonboyett.github.io/" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: ???
+twitter_username: 
 github_username:  watsonboyett
 
 # Build settings
 markdown: kramdown
+
+# Google Analytics
+google_analytics: UA-112002353-1
