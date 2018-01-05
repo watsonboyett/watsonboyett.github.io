@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "CarTalk"
-date: 2000-09-01 12:00:00 -0600
-short: CarTalk
+date: 2017-09-01 12:00:00 -0600
+short: cartalk
 github: https://github.com/watsonboyett/CarTalk
 image: assembled-board.jpg
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: "ThermoBot"
 date: 2017-06-01 12:00:00 -0600
-short: ThermoBot
+short: thermobot
 github: https://github.com/watsonboyett/ThermoBot
 image: oven-internals.jpg
 tags:
